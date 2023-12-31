@@ -1,5 +1,6 @@
 package com.example.testcompose.app.di
 
+import com.example.testcompose.app.utils.Screens.BASE_URL
 import com.example.testcompose.data.network.ApiService
 import dagger.Module
 import dagger.Provides
@@ -12,8 +13,6 @@ import javax.inject.Singleton
 @Module
 @InstallIn(SingletonComponent::class)
 object AppModule {
-
-    const val BASE_URL = "https://api.tvmaze.com/"
 
     @Provides
     @Singleton
