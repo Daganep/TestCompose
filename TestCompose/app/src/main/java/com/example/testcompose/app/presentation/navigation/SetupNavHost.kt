@@ -1,14 +1,14 @@
-package com.example.testcompose.navigation
+package com.example.testcompose.app.presentation.navigation
 
 import androidx.compose.runtime.Composable
 import androidx.navigation.NavHostController
 import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
-import com.example.testcompose.screens.MainScreen
-import com.example.testcompose.screens.SplashScreen
-import com.example.testcompose.utils.Screens.DETAILS_SCREEN
-import com.example.testcompose.utils.Screens.MAIN_SCREEN
-import com.example.testcompose.utils.Screens.SPLASH_SCREEN
+import com.example.testcompose.app.presentation.screens.MainScreen
+import com.example.testcompose.app.presentation.screens.SplashScreen
+import com.example.testcompose.app.presentation.utils.Screens.DETAILS_SCREEN
+import com.example.testcompose.app.presentation.utils.Screens.MAIN_SCREEN
+import com.example.testcompose.app.presentation.utils.Screens.SPLASH_SCREEN
 
 sealed class Screens(val route: String)
 object Splash: Screens(route = SPLASH_SCREEN)

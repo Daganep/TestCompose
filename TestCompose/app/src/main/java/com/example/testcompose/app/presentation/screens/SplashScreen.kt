@@ -1,4 +1,4 @@
-package com.example.testcompose.screens
+package com.example.testcompose.app.presentation.screens
 
 import androidx.compose.animation.core.animateFloatAsState
 import androidx.compose.animation.core.tween
@@ -16,8 +16,8 @@ import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import androidx.navigation.NavController
-import com.example.testcompose.navigation.Main
-import com.example.testcompose.ui.theme.TestComposeTheme
+import com.example.testcompose.app.presentation.navigation.Main
+import com.example.testcompose.app.presentation.theme.TestComposeTheme
 import kotlinx.coroutines.delay
 
 @Composable

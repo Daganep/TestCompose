@@ -1,4 +1,4 @@
-package com.example.testcompose.screens
+package com.example.testcompose.app.presentation.screens
 
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.material.Surface

@@ -1,4 +1,4 @@
-package com.example.testcompose.utils
+package com.example.testcompose.app.presentation.utils
 
 object Screens {
     const val SPLASH_SCREEN = "SPLASH_SCREEN"
